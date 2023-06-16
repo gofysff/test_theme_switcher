@@ -9,7 +9,7 @@ class AppRouter {
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
       case home:
-        return MaterialPageRoute(builder: (_) => const SwitcherScreen());
+        return MaterialPageRoute(builder: (_) => SwitcherScreen());
       case ShowResultScreen.routeName:
         return MaterialPageRoute(builder: (_) => const ShowResultScreen());
       default:
